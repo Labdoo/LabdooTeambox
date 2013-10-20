@@ -1,0 +1,16 @@
+%p At Labdoo we work from anywhere in the planet using social network tools toward the mission of bringing laptops to children. We work using free open source tools, whether it is by writing free software to build the logistic social network system, outreaching to communities to bring awareness, tagging laptops, recycling, dootripping, fixing laptops, installing Ubuntu and education software to laptops, etc. At Labdoo there is a task for everyone that can make a difference. Even if you only have a few minutes of your time to contribute, we invite you to join Labdoo/Teambox, a web-based open source collaboration tool for Labdoo efforts.
+
+%h3 Your public projects
+
+- if @projects.any?
+  .projects
+    - for project in @projects
+      %p.project
+        = link_to h(project), public_project_path(project)
+
+- if @public_projects.any?
+  %h3 Public projects on Teambox
+  .projects
+    - for project in @public_projects
+      %p.project
+        = link_to h(project), public_project_path(project)
