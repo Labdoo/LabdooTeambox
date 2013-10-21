@@ -52,6 +52,7 @@ group :development do
   gem 'haml-rails'
   gem 'unicorn'
   gem 'foreman'
+  gem 'railroady'
 end
 
 group :test, :development do

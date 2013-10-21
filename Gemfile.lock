@@ -204,6 +204,7 @@ GEM
     rack-ssl-enforcer (0.2.2)
     rack-test (0.5.7)
       rack (>= 1.0)
+    railroady (1.1.1)
     rails (3.0.9)
       actionmailer (= 3.0.9)
       actionpack (= 3.0.9)
@@ -330,6 +331,7 @@ DEPENDENCIES
   pickle (~> 0.4.4)
   rack-ssl-enforcer
   rack-staticifier!
+  railroady
   rails (~> 3.0.9)
   rcov
   rdiscount (~> 1.6.3)
