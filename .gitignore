@@ -8,6 +8,7 @@
 /assets
 config/database.yml
 config/teambox.local.yml
+config/teambox.yml
 /coverage
 /exports
 /imports
