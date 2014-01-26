@@ -9,11 +9,11 @@ namespace :mail do
     User.send_daily_task_reminders
   end
 
-  desc "Send notification digest"
-  task :digest => :environment do
-    Person.send_all_digest
-  end
+#  desc "Send notification digest"
+#  task :digest => :environment do
+#    Person.send_all_digest
+#  end
 end
 
 # for Heroku cron add-on
-task :cron => ["mail:inbox", "mail:reminders", "mail:digest"]
+#task :cron => ["mail:inbox", "mail:reminders", "mail:digest"]

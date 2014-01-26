@@ -94,7 +94,7 @@ defaults: &defaults
   enable_pop_ssh: true
 
   # Allow teambox.com to gather statistics about this installation
-  tracking_enabled: true
+  tracking_enabled: false
 
   # Destination where your users could write to ask for help. Accepts an email or website.
   support: http://help.teambox.com
