@@ -24,6 +24,7 @@ public/stylesheets
 public/sprockets.js
 public/trimmer
 public/jammit
+public/jammit/*
 /uploads
 webrat-*
 capybara-*

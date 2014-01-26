@@ -273,6 +273,7 @@ div.column_wrap {
   width: 300px;
   font-size: 12px; }
   div.column_wrap div.column {
+    position: relative;
     background: white;
     padding: 10px;
       padding-left: 0;

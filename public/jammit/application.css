@@ -121,7 +121,7 @@ div.column p {
   margin: 10px 0; }
 
 a.loading_button {
-  background: url(/images/loading_button_bg.gif?1375780273) no-repeat left;
+  background: url(/images/loading_button_bg.gif?1382323205) no-repeat left;
   font-size: 12px;
   padding: 5px;
     padding-left: 20px; }
@@ -130,7 +130,7 @@ a.loading_button {
     padding: 5px;
       padding-right: 10px;
     font-weight: bold;
-    background: url(/images/loading_button_wrap_bg.jpg?1375780273) no-repeat right; }
+    background: url(/images/loading_button_wrap_bg.jpg?1382323205) no-repeat right; }
 
 a.button, a.unarchive_task_list_link, a.reorder_task_list_link, a.add_button, a.new_task_list_link, a.new_task_list_template {
   display: inline-block;
@@ -163,12 +163,12 @@ a.button, a.unarchive_task_list_link, a.reorder_task_list_link, a.add_button, a.
   .cssgradients a.button, .cssgradients a.unarchive_task_list_link, .cssgradients a.reorder_task_list_link, .cssgradients a.add_button, .cssgradients a.new_task_list_link, .cssgradients a.new_task_list_template {
     border: 1px solid silver; }
   .no-cssgradients a.button, .no-cssgradients a.unarchive_task_list_link, .no-cssgradients a.reorder_task_list_link, .no-cssgradients a.add_button, .no-cssgradients a.new_task_list_link, .no-cssgradients a.new_task_list_template {
-    background: url(/images/button_bg.jpg?1375780273) no-repeat left;
+    background: url(/images/button_bg.jpg?1382323205) no-repeat left;
     padding: 5px 0 5px 5px; }
     .no-cssgradients a.button span, .no-cssgradients a.unarchive_task_list_link span, .no-cssgradients a.reorder_task_list_link span, .no-cssgradients a.add_button span, .no-cssgradients a.new_task_list_link span, .no-cssgradients a.new_task_list_template span {
       padding: 6px 10px 5px 5px;
       font-weight: bold;
-      background: url(/images/button_wrap_bg.jpg?1375780273) no-repeat right; }
+      background: url(/images/button_wrap_bg.jpg?1382323205) no-repeat right; }
 
 .cssgradients a.add_button:before, .cssgradients a.new_task_list_link:before {
   content: "+ ";
@@ -176,11 +176,11 @@ a.button, a.unarchive_task_list_link, a.reorder_task_list_link, a.add_button, a.
   color: #555555;
   margin-right: 0.3em; }
 .no-cssgradients a.add_button, .no-cssgradients a.new_task_list_link {
-  background-image: url(/images/add_button_bg.jpg?1375780273);
+  background-image: url(/images/add_button_bg.jpg?1382323205);
   padding-left: 20px; }
   .no-cssgradients a.add_button span, .no-cssgradients a.new_task_list_link span {
     padding: 8px 7px 7px 7px;
-    background: url(/images/button_wrap_bg.jpg?1375780273) no-repeat right; }
+    background: url(/images/button_wrap_bg.jpg?1382323205) no-repeat right; }
 
 .cssgradients a.button.allow {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 180, 20, 0)), to(#00b414));
@@ -273,6 +273,7 @@ div.column_wrap {
   width: 300px;
   font-size: 12px; }
   div.column_wrap div.column {
+    position: relative;
     background: white;
     padding: 10px;
       padding-left: 0;
@@ -507,7 +508,7 @@ form.app_form {
   margin-bottom: 15px; }
 
 .trash_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: 0px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -517,7 +518,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .trash_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: 0px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -528,7 +529,7 @@ form.app_form {
     height: 16px; }
 
 .edit_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -16px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -538,7 +539,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .edit_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -16px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -549,7 +550,7 @@ form.app_form {
     height: 16px; }
 
 .attach_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -128px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -559,7 +560,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .attach_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -128px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -570,7 +571,7 @@ form.app_form {
     height: 16px; }
 
 .add_hours_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -112px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -580,7 +581,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .add_hours_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -112px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -591,7 +592,7 @@ form.app_form {
     height: 16px; }
 
 .comment_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -48px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -601,7 +602,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .comment_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -48px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -612,7 +613,7 @@ form.app_form {
     height: 16px; }
 
 .task_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -64px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -622,7 +623,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .task_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -64px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -633,7 +634,7 @@ form.app_form {
     height: 16px; }
 
 .page_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -96px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -643,7 +644,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .page_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -96px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -654,7 +655,7 @@ form.app_form {
     height: 16px; }
 
 .style_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -160px 0px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -664,7 +665,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .style_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -160px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -676,7 +677,7 @@ form.app_form {
 
 .static_tick_icon {
   display: inline-block;
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -64px -16px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -688,7 +689,7 @@ form.app_form {
 
 .static_cross_icon {
   display: inline-block;
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: 0px -16px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -699,7 +700,7 @@ form.app_form {
   height: 16px; }
 
 .left_arrow_icon {
-  background-image: url(/images/_sprites_16px.png?1375780273);
+  background-image: url(/images/_sprites_16px.png?1382323205);
   background-position: -176px 3px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -709,7 +710,7 @@ form.app_form {
   width: 16px;
   height: 16px; }
   .left_arrow_icon:hover {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -176px -13px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -720,7 +721,7 @@ form.app_form {
     height: 16px; }
 
 .loading_icon {
-  background-image: url(/images/loading.gif?1375780273);
+  background-image: url(/images/loading.gif?1382323205);
   background-position: 0 0;
   background-repeat: no-repeat;
   display: inline-block;
@@ -731,7 +732,7 @@ form.app_form {
   height: 16px; }
 
 .add_watchers {
-  background-image: url(/famfamfam/user_go.png?1375780274);
+  background-image: url(/famfamfam/user_go.png?1382323205);
   background-position: 0 0;
   background-repeat: no-repeat;
   display: inline-block;
@@ -742,7 +743,7 @@ form.app_form {
   height: 16px; }
 
 .private_switch, .lock_icon, .is_private_state {
-  background-image: url(/famfamfam/lock.png?1375780274);
+  background-image: url(/famfamfam/lock.png?1382323205);
   background-position: 0 0;
   background-repeat: no-repeat;
   display: inline-block;
@@ -753,7 +754,7 @@ form.app_form {
   height: 16px; }
 
 .is_public_state {
-  background-image: url(/famfamfam/lock_open.png?1375780274);
+  background-image: url(/famfamfam/lock_open.png?1382323205);
   background-position: 0 0;
   background-repeat: no-repeat;
   display: inline-block;
@@ -764,7 +765,7 @@ form.app_form {
   height: 16px; }
 
 .google_docs_icon {
-  background-image: url(/images/google_docs/icon_6_document.gif?1375780273);
+  background-image: url(/images/google_docs/icon_6_document.gif?1382323205);
   background-position: 0 0;
   background-repeat: no-repeat;
   display: inline-block;
@@ -952,11 +953,11 @@ form.app_form {
       float: none; }
 
   .recent_conversations a.conversation, .project_pages a.conversation {
-    background: url(/images/comment.gif?1375780273) no-repeat left;
+    background: url(/images/comment.gif?1382323205) no-repeat left;
     margin-left: 10px;
     padding-left: 25px; }
   .recent_conversations a.page, .project_pages a.page {
-    background: url(/images/page.png?1375780273) no-repeat left;
+    background: url(/images/page.png?1382323205) no-repeat left;
     margin-left: 10px;
     padding-left: 25px; }
   .recent_conversations a, .project_pages a {
@@ -987,7 +988,7 @@ form.app_form {
     color: #444444; }
 
   a.gantt_link {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px -48px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -996,7 +997,7 @@ form.app_form {
     _height: 16px; }
 
   a.calendars_link {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px 0px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1005,7 +1006,7 @@ form.app_form {
     _height: 16px; }
 
   a.csv_link {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px -112px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1014,7 +1015,7 @@ form.app_form {
     _height: 16px; }
 
   a.print_link {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px -64px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1023,7 +1024,7 @@ form.app_form {
     _height: 16px; }
 
   a.email_link {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px -32px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1032,7 +1033,7 @@ form.app_form {
     _height: 16px; }
 
   a.public_link {
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px -80px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1042,7 +1043,7 @@ form.app_form {
 
   a.leave_link {
     margin-top: 20px;
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px -96px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1051,7 +1052,7 @@ form.app_form {
     _height: 16px; }
 
   a.join_link {
-    background-image: url(/famfamfam/group_add.png?1375780273);
+    background-image: url(/famfamfam/group_add.png?1382323205);
     background-position: 0 0;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1065,7 +1066,7 @@ form.app_form {
 
   a.subscribe {
     margin-top: 15px;
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px -16px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1092,7 +1093,7 @@ form.app_form {
     font-size: 13px;
     padding-left: 25px;
     margin: 8px 0;
-    background-image: url(/images/_sprites_16px.png?1375780273);
+    background-image: url(/images/_sprites_16px.png?1382323205);
     background-position: -240px 0px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -2596,11 +2597,11 @@ form.task_list_template_form ul {
     display: block; }
 
 .page_slot.InsertBefore {
-  background-image: url(/images/pins.gif?1375780273);
+  background-image: url(/images/pins.gif?1382323205);
   background-repeat: repeat-x; }
 
 .divider {
-  background: url(/images/divider.jpg?1375780273) repeat-x center;
+  background: url(/images/divider.jpg?1382323205) repeat-x center;
   padding-left: 10px; }
   .divider h3 {
     padding-top: 3px; }
@@ -2636,7 +2637,7 @@ form.new_divider, form.edit_divider {
   margin-top: 5px;
   padding: 10px;
     padding-right: 0px;
-  background: url(../images/divider.jpg?1375780273) repeat-x center; }
+  background: url(../images/divider.jpg?1382323205) repeat-x center; }
   form.new_divider .area, form.edit_divider .area {
     border: solid 1px #e6e6e6;
     background: #f5f5f5;
@@ -3197,7 +3198,7 @@ a.micro_avatar {
       .calendar_gantt .tabs .tab a.active {
         border-bottom: 1px solid white; }
       .calendar_gantt .tabs .tab a#show_calendar_link {
-        background-image: url(/images/_sprites_16px.png?1375780273);
+        background-image: url(/images/_sprites_16px.png?1382323205);
         background-position: -240px 0px;
         background-repeat: no-repeat;
         display: inline-block;
@@ -3205,7 +3206,7 @@ a.micro_avatar {
         *display: inline;
         _height: 16px; }
       .calendar_gantt .tabs .tab a#show_gantt_chart_link {
-        background-image: url(/images/_sprites_16px.png?1375780273);
+        background-image: url(/images/_sprites_16px.png?1382323205);
         background-position: -240px -48px;
         background-repeat: no-repeat;
         display: inline-block;
@@ -3279,7 +3280,7 @@ div.banner_navigation {
       height: 10px;
       width: 5px;
       text-indent: 0.3em;
-      background: url(../images/mark.jpg?1375780273) no-repeat left; }
+      background: url(../images/mark.jpg?1382323205) no-repeat left; }
     .gantt .ruler .date {
       position: absolute;
       font-family: Courier, monospace;
@@ -3969,43 +3970,43 @@ textarea#embedded_gdoc_source {
     .nav_links a.more, .more_links a.more {
       color: #777777; }
     .nav_links a.home, .more_links a.home {
-      background-image: url(/famfamfam/house.png?1375780274); }
+      background-image: url(/famfamfam/house.png?1382323205); }
     .nav_links a.add, .more_links a.add {
-      background-image: url(/famfamfam/add.png?1375780274); }
+      background-image: url(/famfamfam/add.png?1382323205); }
     .nav_links a.recent_activity, .more_links a.recent_activity {
-      background-image: url(/famfamfam/newspaper.png?1375780274); }
+      background-image: url(/famfamfam/newspaper.png?1382323205); }
     .nav_links a.conversations, .more_links a.conversations {
-      background-image: url(/famfamfam/comment.png?1375780274); }
+      background-image: url(/famfamfam/comment.png?1382323205); }
     .nav_links a.today, .more_links a.today {
-      background-image: url(/famfamfam/weather_sun.png?1375780274); }
+      background-image: url(/famfamfam/weather_sun.png?1382323205); }
     .nav_links a.tasks, .more_links a.tasks {
-      background-image: url(/famfamfam/tick.png?1375780274); }
+      background-image: url(/famfamfam/tick.png?1382323205); }
     .nav_links a.time, .more_links a.time {
-      background-image: url(/famfamfam/time.png?1375780273); }
+      background-image: url(/famfamfam/time.png?1382323205); }
     .nav_links a.pages, .more_links a.pages {
-      background-image: url(/famfamfam/layout_content.png?1375780273); }
+      background-image: url(/famfamfam/layout_content.png?1382323205); }
     .nav_links a.files, .more_links a.files {
-      background-image: url(/famfamfam/folder.png?1375780274); }
+      background-image: url(/famfamfam/folder.png?1382323205); }
     .nav_links a.people, .more_links a.people {
-      background-image: url(/famfamfam/group.png?1375780274); }
+      background-image: url(/famfamfam/group.png?1382323205); }
     .nav_links a.chat, .more_links a.chat {
-      background-image: url(/famfamfam/emoticon_smile.png?1375780274); }
+      background-image: url(/famfamfam/emoticon_smile.png?1382323205); }
     .nav_links a.contacts, .more_links a.contacts {
-      background-image: url(/famfamfam/report_user.png?1375780274); }
+      background-image: url(/famfamfam/report_user.png?1382323205); }
     .nav_links a.recent_activities, .more_links a.recent_activities {
-      background-image: url(/famfamfam/user_comment.png?1375780275); }
+      background-image: url(/famfamfam/user_comment.png?1382323205); }
     .nav_links a.advanced, .more_links a.advanced {
-      background-image: url(/famfamfam/pill.png?1375780275); }
+      background-image: url(/famfamfam/pill.png?1382323205); }
     .nav_links a.feeds, .more_links a.feeds {
-      background-image: url(/famfamfam/feed.png?1375780274); }
+      background-image: url(/famfamfam/feed.png?1382323205); }
     .nav_links a.calendar, .more_links a.calendar {
-      background-image: url(/famfamfam/date.png?1375780274); }
+      background-image: url(/famfamfam/date.png?1382323205); }
     .nav_links a.settings, .more_links a.settings {
-      background-image: url(/famfamfam/cog.png?1375780274); }
+      background-image: url(/famfamfam/cog.png?1382323205); }
     .nav_links a.collapsed_mode, .nav_links a.expanded_mode, .more_links a.collapsed_mode, .more_links a.expanded_mode {
-      background-image: url(/famfamfam/layers.png?1375780274); }
+      background-image: url(/famfamfam/layers.png?1382323205); }
     .nav_links a.loading, .more_links a.loading {
-      background-image: url(/images/loading.gif?1375780273); }
+      background-image: url(/images/loading.gif?1382323205); }
 
 .more_links {
   margin-left: -15px; }
@@ -4069,19 +4070,19 @@ textarea#embedded_gdoc_source {
           text-decoration: none;
           color: #df5249; }
         .project_overlay .overlay .sections p a.recent_activity {
-          background-image: url(/famfamfam/newspaper.png?1375780274); }
+          background-image: url(/famfamfam/newspaper.png?1382323205); }
         .project_overlay .overlay .sections p a.conversations {
-          background-image: url(/famfamfam/comment.png?1375780274); }
+          background-image: url(/famfamfam/comment.png?1382323205); }
         .project_overlay .overlay .sections p a.tasks {
-          background-image: url(/famfamfam/tick.png?1375780274); }
+          background-image: url(/famfamfam/tick.png?1382323205); }
         .project_overlay .overlay .sections p a.time {
-          background-image: url(/famfamfam/time.png?1375780273); }
+          background-image: url(/famfamfam/time.png?1382323205); }
         .project_overlay .overlay .sections p a.pages {
-          background-image: url(/famfamfam/layout_content.png?1375780273); }
+          background-image: url(/famfamfam/layout_content.png?1382323205); }
         .project_overlay .overlay .sections p a.files {
-          background-image: url(/famfamfam/folder.png?1375780274); }
+          background-image: url(/famfamfam/folder.png?1382323205); }
         .project_overlay .overlay .sections p a.people {
-          background-image: url(/famfamfam/group.png?1375780274); }
+          background-image: url(/famfamfam/group.png?1382323205); }
 
 .calendar_date_select {
   -moz-border-radius: 4px;
@@ -4926,7 +4927,7 @@ div.column_wrap h2 {
   font-size: 12px;
   background-position: 3px 5px;
   background-repeat: no-repeat;
-  background-image: url(/famfamfam/star.png?1375780274);
+  background-image: url(/famfamfam/star.png?1382323205);
   height: 20px;
   display: inline-block;
   margin-top: 4px;
