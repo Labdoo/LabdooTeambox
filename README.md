@@ -9,5 +9,5 @@ This is not an official fork (it really should be), but since Teambox3 has becom
 Visit http://labdoo.org to learn about our organization!
 
 Update (2/10/14):
-=================
+-----------------
 This fork will likely be deprecated by the end of February 2014, in favor of a fork of https://github.com/crewmate/crewmate, a more developed and actively maintained fork of the teambox3 project.
